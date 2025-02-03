@@ -1,144 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GitHub Portfolio</title>
+    <title>Dr. James Besse</title>
     <style>
         body {
-            font-family: 'Helvetica', sans-serif;
+            font-family: Calibri, sans-serif;
+            background-color: #F5F5F5;
+            color: #002F36;
             margin: 0;
-            padding: 0;
-            color: #333;
-            background: #fff; 
+            padding: 20px;
         }
-
         header {
-            position: relative;
-            background: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ferudera.com%2Fmedia%2Fimages%2FUniversity_of_Basel_cover.original.jpg&f=1&nofb=1&ipt=5513f5694d237b306f86a235a43908394b81af87f5a63030c018ab558a8acee9&ipo=images') no-repeat center center/cover;
-            height: 250px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            color: #000;
+            background-color: #EAEAEA;
+            padding: 20px;
             text-align: center;
         }
-
-        header::after {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
+        h1, h2 {
+            color: #002F36;
+        }
+        a {
+            color: #004F5D;
+        }
+        table {
             width: 100%;
-            height: 100%;
-            background-color: rgba(255, 255, 255, 0.7);
-            z-index: 1;
+            border-collapse: collapse;
         }
-
-        header h1, header p {
-            z-index: 2;
-            margin: 0;
-        }
-
-        header h1 {
-            font-size: 2.8rem;
-        }
-
-        header p {
-            font-size: 1.2rem;
-        }
-
-        .container {
-            max-width: 800px;
-            margin: 2rem auto;
-            padding: 0 1rem;
-        }
-
-        .section {
-            margin-bottom: 2rem;
-        }
-
-        .section h2 {
-            font-size: 2rem;
-            color: #000; 
-            margin-bottom: 1rem;
-        }
-
-        .content {
-            background: #fff;
-            border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            padding: 1.5rem;
-            margin-bottom: 2rem;
-        }
-
-        footer {
-            text-align: center;
-            padding: 1rem;
-            background: #00;
-            color: #1;
-        }
-
-        footer a {
-            color: #6e8efb;
-            text-decoration: none;
+        td {
+            border: 1px solid #D1D1D1;
+            padding: 10px;
+            background-color: #FFFFFF;
         }
     </style>
 </head>
-
 <body>
     <header>
-        <h1>Your Name</h1>
-        <p>.................</p>
+        <h1>Dr. James Besse</h1>
+        <img src="https://example.com/cover-image.jpg" alt="Cover Image" style="width:100%; height:auto;">
+        <p>Website: <a href="https://jwbesse.github.io" target="_blank">jwbesse.github.io</a></p>
     </header>
-
-    <div class="container">
-        <!-- About Me Section -->
-        <section id="about" class="section">
-            <h2>About Me</h2>
-            <div class="content">
-                <p>....................</p>
-            </div>
-        </section>
-
-        <!-- Research Section -->
-        <section id="research" class="section">
-            <h2>Research</h2>
-            <div class="content">
-                <p>My research focuses on .....................</p>
-            </div>
-        </section>
-
-        <!-- Projects Section -->
-        <section id="projects" class="section">
-            <h2>Projects</h2>
-            <div class="content">
-                <ul>
-                    <li><strong>Project 1:</strong> Description and link</li>
-                    <li><strong>Project 2:</strong> Description and link.</li>
-                    <li><strong>Project 3:</strong> Description and link.</li>
-                </ul>
-            </div>
-        </section>
-
-        <!-- Publications Section -->
-        <section id="publications" class="section">
-            <h2>Publications</h2>
-            <div class="content">
-                <ul>
-                    <li><strong>Publication 1:</strong> Title, journal/conference, year.</li>
-                    <li><strong>Publication 2:</strong> Title, journal/conference, year.</li>
-                    <li><strong>Publication 3:</strong> Title, journal/conference, year.</li>
-                </ul>
-            </div>
-        </section>
-    </div>
-
-    <footer>
-        <p>© 2024 Your Name | <a href="https://github.com/jwbesse" target="_blank">GitHub Profile</a></p>
-    </footer>
+    
+    <section>
+        <h2>About Me</h2>
+        <p>I am an innovation researcher and data scientist. This website presents some of my recent work.</p>
+    </section>
+    
+    <section>
+        <h2>Research</h2>
+        <table>
+            <tr>
+                <td>
+                    <strong>Scientometrics</strong><br>
+                    <img src="https://example.com/scientometrics.jpg" alt="Scientometrics Image" style="width:100%; height:auto;"><br>
+                    Analyzing research trends and impact using bibliometric techniques. Measuring citation networks, tracking institutional collaboration, and identifying emerging areas of innovation.
+                </td>
+                <td>
+                    <strong>Network Analysis</strong><br>
+                    <img src="https://example.com/network-analysis.jpg" alt="Network Analysis Image" style="width:100%; height:auto;"><br>
+                    Mapping and examining complex networks to uncover hidden structures and key influencers. Modeling research collaborations, policy networks, and knowledge diffusion patterns.
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <strong>Statistical Benchmarking</strong><br>
+                    <img src="https://example.com/statistical-benchmarking.jpg" alt="Statistical Benchmarking Image" style="width:100%; height:auto;"><br>
+                    Developing benchmarking models to compare research and innovation performance across institutions, regions, and programs. Creating quantitative indicators to assess productivity, funding efficiency, and policy outcomes.
+                </td>
+                <td>
+                    <strong>Social Media Analytics</strong><br>
+                    <img src="https://example.com/social-media-analytics.jpg" alt="Social Media Analytics Image" style="width:100%; height:auto;"><br>
+                    Analyzing digital conversations to track public engagements with science and emerging technologies. Analyzing media content and sentiment, detecting misinformation, and measuring the influence of scientific and policy discussions online.
+                </td>
+            </tr>
+        </table>
+    </section>
+    
+    <section>
+        <h2>Projects</h2>
+        <ul>
+            <li>Evaluation of OpenAlex’s Funding Coverage.</li>
+            <li>Monitoring, Evaluation, and Benefits Management for the UK’s Investments in the European Space Agency.</li>
+            <li>Evaluation of the Centre for Earth Observation Instrumentation (CEOI) Programme.</li>
+            <li>Provision of Monitoring, Evaluation and Benefits Management for the National Space Innovation Programme.</li>
+            <li>Using Emerging Technologies in the Humanitarian Sector.</li>
+            <li>Cambridge University/Google Oak Smart Campus.</li>
+            <li>University of Edinburgh Library IoT Evaluation.</li>
+        </ul>
+    </section>
+    
+    <section>
+        <h2>Publications</h2>
+        <ul>
+            <li>"The Strange Resilience of the UK e-Borders Programme: Technology Hype, Failure, and Lock-in in Border Control.” Security Dialogue, 2023.</li>
+            <li>"Emerging Technologies in the Humanitarian Sector: Methodology Report.” RAND Europe, 2024.</li>
+            <li>"Opportunities for Supporting Humanitarians: Technology Guidance.” RAND Europe, 2024.</li>
+            <li>"Use of AI in the UK Food System." RAND Europe, 2024.</li>
+            <li>“How to Use Web Scraping for Social Science: Sampling and Generalizability.” SAGE Research Methods, 2024.</li>
+            <li>“‘Opportunities have pretty much disappeared’: the movement for Scottish Independence in abeyance during COVID-19.” Scottish Affairs, 2022.</li>
+        </ul>
+    </section>
 </body>
-
 </html>
